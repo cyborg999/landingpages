@@ -1,0 +1,173 @@
+* {
+	color: #212121;
+	font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	letter-spacing: 0.02em;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.about {
+	position: relative;
+	overflow: hidden;
+	color: #474747;
+}
+.about .container {
+	width: 1000px;
+	margin: 0 auto;
+}
+.sec1 h2 {
+	font-size: 30px;
+	color: #3f3f3f;
+	text-align: left;
+	font-weight: 500;
+	font-style: normal;
+	padding: 20px 0;
+}
+.separator {
+	height: 3px;
+	width: 100px;
+	display: block;
+	background: #444444;
+	margin: 40px 0;
+}
+.sec1 p {
+	font-size: 15px;
+	line-height: 1.3;
+	margin-top: 30px;
+}
+
+.sec2 .container {
+	position: relative;
+}
+.sec2 h4 {
+	font-size: 34px;
+    font-weight: 600;
+    color: #3d3d3d;
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 380px;
+}
+.sec2 p {
+	font-size: 15px;
+	line-height: 1.3;
+	margin-top: 30px;
+	width: 700px;
+}
+.sec2 .separator {
+	height: 1px;
+	position: absolute;
+	z-index: 0;
+	width: 700px;
+	top: -19px;
+	background: #f7f7f7;
+}
+.sec2_box {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	width: 700px;
+	margin-top: 30px;
+}
+.sec2_left {
+	display: block;
+	width: 50px;
+}
+.sec2_right {
+	display: block;
+	width: 600px;
+}
+.sec2_mail {
+	width: 26px;
+	height: 24px;
+	background: url(./images/mail.jpg) no-repeat;
+}
+.sec2_phone {
+	width: 26px;
+	height: 24px;
+	background: url(./images/support.jpg) no-repeat;
+}
+.sec2_right b {
+	font-size: 15px;
+}
+.sec2_right p {
+	margin: 0;
+	font-size: 15px;
+	width: initial;
+	color: #474747;
+	margin-bottom: 10px;
+}
+.sec2 h5 {
+	color: #474747;
+	font-size: 16px;
+	color: #444;
+}
+.sec2 ul {
+	list-style-type: none;
+	margin-top: 10px;
+}
+.sec2 li {
+	padding: 5px 0 5px 18px;
+	background: url(./images/call.jpg) no-repeat center left;
+	background-size: 12px 11px;
+}
+.sec2 .faq li {
+	font-size: 17px;
+	margin-top: 20px;
+	padding: 0;
+	border-bottom: 1px solid #eee;
+	background: none;
+}
+.faq em {
+	font-style: normal;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.faq p {
+	font-size: 16px;
+	padding: 20px 0 30px;
+	width: initial;
+	margin: 0;
+	display: block;
+	text-align: left;
+}
+.sec2_toggle {
+	background: url(./images/toggle.png) no-repeat;
+	width: 15px;
+	height: 12px;
+	margin: 0;
+	float: left;
+	margin-right: 10px;
+}
+
+
+@media(max-width: 420px){
+	.about .container {
+		width: 320px;
+		margin: 0 auto;
+	}
+	.sec1 h2 {
+		padding: 20px 0 0;
+	}
+
+	.sec2 {
+		padding-top: 20px;
+	}
+	.sec2_box,
+	.sec2 p {
+		width: 320px;
+		width: initial;
+	}
+	.sec2_right {
+		width: 250px;
+	}
+}
