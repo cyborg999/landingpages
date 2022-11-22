@@ -1,0 +1,94 @@
+.privacy h1,
+.privacy h2,
+.privacy h3,
+.privacy h4,
+.privacy h5,
+.privacy p,
+.privacy b,
+.privacy li,
+.privacy strong,
+.privacy em{
+  color: #666;
+  font-family: Roboto,sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.02em;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+.privacy .logo {
+  background: url(./images/logo.png) no-repeat;
+  width: 294px;
+  height: 63px;
+  background-size: contain;
+  margin: 20px 0;
+  padding: 0;
+}
+.privacy h3 {
+  margin: 10px 0;
+  font-size: 22px;
+}
+.privacy h2 {
+  font-size: 26px;
+  margin: 10px 0;
+}
+.privacy em,
+.privacy strong,
+.privacy p {
+  font-size: 16px;
+  line-height: 1.3;
+  margin-top: 10px;
+}
+.privacy li {
+  font-size: 16px;
+  line-height: 1.3;
+}
+.privacy .billing_support {
+  margin: 10px 0;
+}
+
+@media(max-width: 420px){
+  .mobilef {
+    display: block;
+  }
+  .supp {
+    display: block;
+  }
+  .body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .privacy .logo {
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+  }
+  .privacy li,
+  .privacy strong,
+  .privacy a,
+  .privacy p {
+    font-size: 14px;
+  }
+  .privacy h2 {
+    font-size: 20px;
+  }
+  .privacy h3 {
+    font-size: 17px;
+  }
+}
